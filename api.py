@@ -28,7 +28,7 @@ def predict():
 
 if __name__ == '__main__':
 
-    # LOADS MODEL AND FEATURE COLUMNS
+    # LOADS MODEL AND FEATURE COLUMNS by joblib.load()
     model = joblib.load("final_model.pkl") 
     col_names = joblib.load("column_names.pkl") 
 
